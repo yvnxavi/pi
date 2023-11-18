@@ -48,12 +48,20 @@ li a {
 }
 
 /* ##################### HEADER NAVEGAÇÃO ######################### */
-.nav-bar {
-  background-color: #1b225871;
-  height: 50px;
+.bar-background {
+  background-color: #0320308e;
   padding-bottom: 70px;
+  height: 50px;
+  right: 0px;
+  width: 100%;
+  position: fixed;
+
+}
+
+.nav-bar {
   right: 3px;
   text-align: right;
+  position: fixed;
 }
 
 .nav-links {
@@ -97,7 +105,7 @@ h1 {
   position: relative;
   font-size: 65px;
   left: 2cm;
-  top: 30px;
+  top: 200px;
 }
 
 /* #################### CLEARFIX STYLE ####################### */
