@@ -49,12 +49,19 @@
     }
 
     /* ##################### HEADER NAVEGAÇÃO ######################### */
-    .nav-bar {
-      background-color: rgba(27, 34, 88, 0.244);
-      height: 50px;
+    .bar-background {
+      background-color: rgba(27, 34, 88, 0.715);
       padding-bottom: 70px;
+      height: 50px;
+      right: 0px;
+      width: 100%;
+      position: fixed;
+    }
+
+    .nav-bar {
       right: 3px;
       text-align: right;
+      position: fixed;
     }
 
     .nav-links {
@@ -88,7 +95,7 @@
       border-color: #f5d7db;
       display: inline-block;
       color: #f5d7db;
-      text-decoration: none;
+      /* text-decoration: none; */
     }
 
 
@@ -98,7 +105,7 @@
       position: relative;
       font-size: 65px;
       left: 2cm;
-      top: 30px;
+      top: 200px;
     }
 
     .clearfix {
