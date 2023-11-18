@@ -2,9 +2,6 @@
       box-sizing: border-box;
     }
 
-    .content {
-      background-color: #04395e;
-    }
 
     .header {
       background-size: cover;
@@ -22,7 +19,7 @@
       background-image: url(./img/hero-img-png.png);
       background-size: cover;
       background-position: 50% 76%;
-      color: white;
+      color: #f4f1de;
 
     }
 
@@ -49,12 +46,12 @@
       border: 0px solid rgba(255, 0, 0, 0);
       background: rgba(153, 0, 51, 0);
       text-decoration: none;
-      color: #FFF;
+      color: #f5d7db;
     }
 
     .nav-links {
       right: 3px;
-      background-color: #00000056;
+      background-color: #1b225871;
       height: 50px;
       padding-bottom: 70px;
       text-align: right;
@@ -78,7 +75,7 @@
     }
 
     .clearfix {
-      background-color: #FAF8F9;
+      background-color: #f4f1de;
       padding-left: 30px;
       margin-top: -8px;
       padding-top: 100px;
@@ -103,12 +100,13 @@
       margin-left: 100px;
       margin-right: 400px;
       font-size: 40px;
+      color: #06142e;
     }
 
 
     /* fotos links */
     .content {
-      background-color: #031d44;
+      background-color: #1b2258;
       height: 700px;
       padding: 80px;
     }
@@ -122,7 +120,7 @@
 
     .p,
     #p {
-      color: whitesmoke;
+      color: #f5d7db;
     }
 
     #p {
@@ -140,7 +138,7 @@
     }
 
     footer {
-      background-color: #04395e;
+      background-color: #06142e;
       padding: 50px 0;
       color: #dab785;
     }
@@ -227,7 +225,7 @@
       outline: none;
       border: 1px solid #dab785;
       color: #dab785;
-      background-color: #04395e;
+      background-color: #06142e;
     }
 
     .footer-col .form-sub input::placeholder {
