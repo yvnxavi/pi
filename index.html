@@ -1,157 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="globals.css" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="body">
-    <div class="div">
-      <div class="overlap-3">
-        <div class="div-img">
-          <div class="hero-img-png">
-            <div class="header"></div>
-            <div class="BEM-VINDOS-REGENERA">BEM-VINDOS&nbsp;&nbsp;À REGENERAÇÃO-PI</div>
-          </div>
+    <div class="body">
+        <header class="header">
+            <div class="img-header">
+
+                <div class="nav-links">
+                    <ul>
+                            <li><a class="links-deactive" href="#">Início</a></li>
+                            <li><a class="links-active" href="#">História</a></li>
+                            <li><a class="links-active" href="#">Dados</a></li>
+                            <li><a class="links-active" href="#">Turísmo</a></li>
+                            <li><a class="links-active" href="#">Lazer</a></li>
+                    </ul>
+                </div>
+                <h1>BEM-VINDOS À <br>REGENERAÇÃO-PI</h1>
+            </div>
+        </header>
+        <div class="clearfix">
+            <img src="./img/Piaui_Municip_Regeneracao.png" class="col-md-6 float-md-end mb-3 ms-md-3" id="imagem">
+
+            <p class="city-info">
+                Localizado no Estado do Piauí. Localiza-se a uma latitude 06º14'16" sul e a uma longitude 42º41'18"
+                oeste, estando a uma altitude de 164 metros. Sua população estimada em 2018 foi de 17 978 habitantes.
+            </p>
+
         </div>
-        <div class="nav-list">
-          <a class="nav-link-deactive">Início</a>
-          <a class="nav-link">Educação</a>
-          <a class="nav-link">Saúde</a>
-          <a class="nav-link">História</a>
-          <a class="nav-link">Início</a>
-          <!-- <div class="item-2">
-            <h3 class="h3">Início</h3>
-          </div>
-          <div class="overlap-group-wrapper">
-            <div class="overlap-group-5">
-              <a class="link-drop-down">Lazer</a>
+        <div class="content">
+            <div class="container text-center">
+                <div class="row row-cols-4">
+                    <div class="col">
+
+                        <div class="img-container">
+                            <a href="./historia.html"><img id="historia" class="imagem-content" src="img/image-1.png" />
+                            </a>
+                        </div>
+
+
+                        <div class="text-wrapper-3" id="p">História</div>
+                        <p class="p">Aqui se encontra um pouco da história de Regeneração-PI.</p>
+                    </div>
+                    <div class="col">
+
+                        <div class="img-container">
+                            <a href="./ptturisticos.html"><img id="turismo" class="imagem-content"
+                                    src="img/image-7.png" />
+                            </a>
+                        </div>
+
+                        <div id="p">Turísmo</div>
+                        <p class="p">Venha conhecer e se maravilhar com os pontos turísticos de
+                            Regeneração-PI.
+                        </p>
+
+                    </div>
+
+                    <div class="col">
+
+                        <div class="img-container">
+                            <a href="./urbanizacao.html"><img id="urbanizacao" class="imagem-content"
+                                    src="img/image-5.png" />
+                            </a>
+                        </div>
+
+                        <div id="p">Urbanização</div>
+                        <p class="p">Conheça alguns aspectos<br />da urbanização de Regeneração-PI.</p>
+                    </div>
+                    <div class="col">
+
+                        <div class="img-container">
+                            <a href="./educacao.html"><img id="educacao" class="imagem-content" src="img/image-6.png" />
+                            </a>
+                        </div>
+                        <div id="p">Educação</div>
+                        <p class="p">Saiba mais sobre a educação de Regeneração-PI.</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="overlap-4">
-            <div class="overlap-wrapper">
-              <div class="overlap-group-5">
-                <a class="link-drop-down">Educação</a>
-              </div>
-            </div>
-            <div class="item-2">
-              <div class="overlap-group-5">
-                <a class="link-drop-down">Saúde</a>
-              </div>
-            </div>
-          </div>
-          <div class="item-2">
-            <div class="overlap-group-5">
-              <a class="link-drop-down">História</a>
-            </div>
-          </div> -->
         </div>
-      </div>
-      <div class="body-inicio">
-        <div class="pre-body">
-          <img class="image-4" src="img/image-9.png" />
-          <p class="localizado-no-estado">
-            Localizado no Estado do Piauí. Localiza-se a uma latitude 06º14&#39;16&#34; sul e a uma longitude
-            42º41&#39;18&#34; oeste, estando a uma altitude de 164 metros. Sua população estimada em 2018 foi de 17
-            978 habitantes.
-          </p>
-        </div>
-      </div>
-      <div class="overlap">
-        <div class="phts-links">
-          <div class="photos">
-            <div class="foto">
-              <div class="overlap-group-4">
-                <img class="img" src="img/image-1.png" />
-                <div class="text-wrapper-3">História</div>
-              </div>
-              <p class="p">Aqui se encontra um pouco da história de Regeneração-PI.</p>
-            </div>
-            <div class="foto-2">
-              <p class="conhe-a-alguns">Conheça alguns aspectos<br />da urbanização de Regeneração-PI.</p>
-              <div class="text-wrapper-4">Urbanização</div>
-              <img class="image-2" src="img/image-5.png" />
-            </div>
-            <div class="foto-3">
-              <div class="text-wrapper-5">Educação</div>
-              <p class="text-wrapper-6">Saiba mais sobre a educação de Regeneração-PI.</p>
-              <img class="image-2" src="img/image-6.png" />
-            </div>
-            <div class="foto-4">
-              <div class="overlap-2">
-                <div class="text-wrapper-7">Lazer</div>
-                <img class="image-3" src="img/image-7.png" />
-              </div>
-              <p class="text-wrapper-8">Venha conhecer e se maravilhar com os pontos turísticos de Regeneração-PI.</p>
-            </div>
-          </div>
-        </div>
-        <footer class="footer">
-          <div class="links-footer">
-            <div class="overlap-group">
-              <div class="div-col-lg">
-                <div class="symbol-wrapper">
-                  <div class="symbol"></div>
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="https://github.com/yvnxavi/pi.wiki.git"> Quem somos </a></li>
+
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Obter ajuda</h4>
+                        <ul>
+                            <li><a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJZdBCNHRsHlzmXVBXdNznlWWSdbxCBsPVcvnLgbWSkBHfsjPqpjppmsSZFwwFZHthWMJgB"
+                                    target="_blank">reginf2b@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <h4>Loja online</h4>
+                        <ul>
+                            <li><a href="#">Relógio</a></li>
+                        </ul>
+                    </div>
+                    <!--end footer col-->
+                    <!-- footer col-->
+                    <div class="footer-col">
+                        <div class="medias-socias">
+                            <a href="#"> <i class="fa fa-facebook"></i> </a>
+                            <a href="#"> <i class="fa fa-instagram"></i> </a>
+                            <a href="#"> <i class="fa fa-twitter"></i> </a>
+                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                        </div>
+
+                    </div>
+                    <!--end footer col-->
                 </div>
-                <div class="div-2">
-                  <div class="overlap-group-2">
-                    <div class="strong-phone">Phone:</div>
-                    <p class="element">+1 5589 55488 55</p>
-                  </div>
-                  <div class="strong-email">Email:</div>
-                  <div class="text-wrapper">info@example.com</div>
-                  <div class="heading">Reservations</div>
-                </div>
-              </div>
-              <div class="div-col-lg-2">
-                <div class="symbol-wrapper">
-                  <div class="symbol"></div>
-                </div>
-                <div class="div-3">
-                  <div class="gmail-com">reginf2b@gmail.com<br />reginf2b@outlook.com</div>
-                  <div class="heading-address">Contate-nos</div>
-                </div>
-              </div>
             </div>
-            <div class="div-col-lg-3">
-              <div class="link">
-                <div class="symbol-2"></div>
-              </div>
-              <div class="div-wrapper">
-                <div class="symbol-2"></div>
-              </div>
-              <div class="link-2">
-                <div class="symbol-2"></div>
-              </div>
-              <div class="link-3">
-                <div class="symbol-2"></div>
-              </div>
-              <div class="heading-follow-us">Nos siga</div>
-            </div>
-            <div class="div-col-lg-4">
-              <div class="i-bi-clock">
-                <div class="symbol"></div>
-              </div>
-              <div class="div-4">
-                <div class="overlap-group-3">
-                  <div class="strong-mon-sat">Mon-Sat: 11AM</div>
-                  <div class="element-pm">- 23PM</div>
-                </div>
-                <div class="text-wrapper-2">Sunday: Closed</div>
-                <div class="heading-opening">Opening Hours</div>
-              </div>
-            </div>
-          </div>
-          <img class="image" src="img/image-8.png" />
         </footer>
-
-      </div>
-
-
     </div>
-  </div>
+
 </body>
 
 </html>
