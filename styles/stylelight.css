@@ -1,15 +1,13 @@
     * {
       box-sizing: border-box;
-
+      margin: 0;
+      padding: 0;
     }
 
     header {
       position: relative;
       height: 597px;
-      top: -31px;
-      padding: 20px;
-      margin-left: -12px;
-      background-image: url(../img/IMG-20231122-WA0010.jpg);
+      background-image: url(../img/hero-img-png.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 76%;
@@ -19,17 +17,13 @@
       align-items: left;
     }
 
-    body {
-      width: 100%;
-    }
 
     h1 {
       font-family: Verdana, Geneva, sans-serif;
       text-align: left;
-      position: relative;
       font-size: 65px;
-      left: 2cm;
-      top: 200px;
+      margin-left: 3vw;
+      margin-top: 10vw;
     }
 
     /* ##################### HEADER NAVEGAÇÃO ######################### */
@@ -67,13 +61,15 @@
     }
 
     .nav-bar {
-      right: 3px;
-      text-align: right;
+      margin-left: 2vw;
+      text-align: left;
+      align-items: left;
     }
 
     .nav-links {
-      right: 3px;
-      text-align: right;
+      margin-left: 2vw;
+      text-align: left;
+      align-items: left;
       margin-top: 0%;
       display: inline-block;
     }
@@ -83,6 +79,9 @@
       font-size: 23px;
       top: 100px;
       font-family: Verdana, Geneva, sans-serif;
+      margin-left: 2vw;
+      text-align: left;
+      align-items: left;
     }
 
     .links-deactive {
@@ -202,13 +201,6 @@
 
     /* ################################## FOOTER ################################## */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
 
     footer {
       background-color: #06142e;
@@ -353,7 +345,6 @@
       transform: scale(1.5);
     }
 
-
     /* ############################# RESPONSIVE ############################## */
 
     @media screen and (max-width: 768px) {
@@ -445,8 +436,6 @@
       }
     }
 
-    /* ############################# RESPONSIVE ############################## */
-
     @media screen and (min-width: 768px) {
       @media screen and (max-width: 1000px) {
 
@@ -515,10 +504,10 @@
         h1 {
           font-family: Verdana, Geneva, sans-serif;
           text-align: left;
-          position: relative;
-          font-size: 65px;
-          left: 2cm;
-          top: 100px;
+          /* position: relative; */
+          font-size: 9vw;
+          margin-left: 5vw;
+          top: 4vw;
         }
 
         .nav-bar {
@@ -535,8 +524,8 @@
 
         .links-active,
         .links-deactive {
-          font-size: 23px;
-          top: 100px;
+          font-size: 3vw;
+          top: 10vw;
           font-family: Verdana, Geneva, sans-serif;
           background-color: #121a5310;
           color: #F0F3FA;
@@ -605,12 +594,12 @@
       }
 
       .col #p {
-        font-size: 6vh;
+        font-size: 7vh;
       }
 
       .col {
         margin-right: 100%;
-        margin-left: 19%;
+        margin-left: 4vw;
       }
 
       .content {
@@ -637,7 +626,7 @@
         }
 
         .col #p {
-          font-size: 3vh;
+          font-size: 4vh;
           margin-left: 30%;
           margin-right: 20%;
         }
@@ -682,7 +671,7 @@
         }
 
         .col #p {
-          font-size: 4vh;
+          font-size: 5vh;
         }
 
         .col .p {
